@@ -1,16 +1,11 @@
 
-import './App.css'
+import GitHubProfileFinder from './components/github-profile-finder'
 
 function App() {
 
 
   return (
-    <>
-      <div>
-        <p>Hello World</p>
-      </div>
-      
-    </>
+    <GitHubProfileFinder/>
   )
 }
 
