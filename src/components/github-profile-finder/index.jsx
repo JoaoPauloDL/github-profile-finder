@@ -22,7 +22,7 @@ const GitHubProfileFinder = () => {
       setLoading(false);
       setUserName('')
     }
-    console.log(userData)
+    
   };
 
  
