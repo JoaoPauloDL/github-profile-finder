@@ -1,0 +1,123 @@
+.github-profile-container {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 40%;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #020202;
+    border-radius: 8px; 
+    box-shadow: 0 0 2px rgba(250, 248, 248, 0.2); 
+    gap: 15px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.input-wrapper{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-wrapper input{
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    
+}
+.input-wrapper button {
+    padding: 5px 12px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(8, 4, 37);;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-wrapper button:hover {
+    transform: scale(1.05);
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #ccc; /* Adiciona uma borda sólida acima da imagem */
+    margin-bottom: 10px; /* Adiciona um espaço entre a imagem e o conteúdo seguinte */
+  
+    
+}
+
+.avatar{
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+.name-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.name-container a{
+    text-decoration: none;
+    color: #020202;
+    font-weight: bold;
+}
+
+.name-container p{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(8, 4, 37);
+}
+
+.profile-info  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #ccc; /* Adiciona uma linha à direita */
+    padding-right: 10px; /* Adiciona espaçamento */
+    margin-top: 5px;
+    font-weight: 500;
+    color: rgb(8, 4, 37);
+  }
+  
+  .info-item:last-child {
+    border-right: none; /* Remove a linha à direita do último item */
+  }
+
+  .card-footer{
+    margin-top: 100px;
+    border-top: 1px solid #ccc; /* Adiciona uma linha sólida acima do footer */
+    padding-top: 10px; /* Adiciona um espaçamento acima do conteúdo do footer */
+    font-weight: 500;
+    color: rgb(8, 4, 37);
+  }
+  
+
+
+
+
+
+
+
+
+  
